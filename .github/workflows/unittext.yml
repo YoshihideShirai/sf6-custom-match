@@ -2,7 +2,7 @@ name: unittest
 
 on:
   push:
-    branches-ignore: [ master , develop ]
+    branches-ignore: [ main , develop ]
 
 jobs:
   unittest:
